@@ -1,0 +1,24 @@
+npm init
+- entry point : server.js
+- 나머지는 그대로
+
+$npm i --s express@4.16.4 mongoose@5.3.4 express-handlebars@3.0.0 body-parser@1.18.3
+
+mac 에서 mongodb 설치
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+
+xcode 개발자 도구 설치 진행
+$xcode-select --install
+
+몽고디비 설치 진행
+$brew tap mongodb/brew
+$brew install mongodb-community@4.0
+$mongod --config /usr/local/etc/mongod.conf
+$brew services start mongodb-community@4.0
+$mongo
+
+
+
+
+nodemon server.js
+-변화에 따라서 바로 프로그램을 업데이트해줌
